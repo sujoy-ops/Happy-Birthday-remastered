@@ -34,7 +34,7 @@
 
 body {
   font-family: var(--font-body);
-  background: linear-gradient(to bottom, var(--clr-bg-from), var(--clr-bg-to)), url(./r.jpg);
+  background: linear-gradient(to bottom, var(--clr-bg-from), var(--clr-bg-to)), url('./assets/images/r.jpg')
   height: 100vh;
   overflow: hidden;
   -webkit-user-select: none;
@@ -82,7 +82,7 @@ a { text-decoration: none; }
   opacity: 0;
   position: fixed;
   inset: 0;
-  background: linear-gradient(to bottom, var(--clr-bg-from), var(--clr-bg-to)), url(./r.jpg);
+  background: linear-gradient(to bottom, var(--clr-bg-from), var(--clr-bg-to)), url('./assets/images/r.jpg')
   transition: var(--transition-std);
   z-index: 0;
 }
